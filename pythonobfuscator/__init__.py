@@ -1,0 +1,1 @@
+from pythonobfuscator.pythonobfuscator import *

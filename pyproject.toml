@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythonobfuscator"
+version = "1.0.0"
+description = "Python Obfuscator Web API interface can help you obfuscate and protect Python .py source code against analysis, reverse engineering and technology theft. Python Obfuscator provides advanced Python source code parsing based on AST trees, multiple advanced obfuscation, virtualization and protection strategies are available."
+readme = "README.md"
+requires-python = ">=3"
+license = "Apache-2.0"
+authors = [
+    { name = "Bartosz Wójcik", email = "support@pelock.com" },
+]
+keywords = [
+    "python",
+    "py",
+    "obfuscator",
+    "obfuscation",
+    "obfuscate",
+    "virtualization",
+    "virtualizer",
+    "vm",
+    "anti-debug",
+    "self-defending",
+    "protection",
+    "script",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Security",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests",
+]
+
+[project.urls]
+Homepage = "https://www.pelock.com/products/python-obfuscator"
+"Python-Obfuscator" = "https://github.com/PELock/Python-Obfuscator"
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["."]
