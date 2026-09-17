@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pythonobfuscator"
+name = "python-obfuscator"
 version = "1.0.0"
 description = "Python Obfuscator Web API interface can help you obfuscate and protect Python .py source code against analysis, reverse engineering and technology theft. Python Obfuscator provides advanced Python source code parsing based on AST trees, multiple advanced obfuscation, virtualization and protection strategies are available."
 readme = "README.md"

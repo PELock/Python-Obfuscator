@@ -99,13 +99,13 @@ The preferred way of WebApi interface installation is via [pip](https://pypi.org
 Run:
 
 ```
-pip install pythonobfuscator
+pip install python-obfuscator
 ```
 
 or
 
 ```
-python3 -m pip install pythonobfuscator
+python3 -m pip install python-obfuscator
 ```
 
 And then add this import to your source code:
@@ -114,7 +114,7 @@ And then add this import to your source code:
 from pythonobfuscator import PythonObfuscator
 ```
 
-Installation package is available at https://pypi.org/project/pythonobfuscator/
+Installation package is available at https://pypi.org/project/python-obfuscator/
 
 ### Example of obfuscating Python script source code using default options
 
